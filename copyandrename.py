@@ -10,7 +10,7 @@ for (dirname, dirs, files) in os.walk('/Users/zhaohuaiyi/Downloads'):
 		if filename.endswith(name):
 			thefile = os.path.join(dirname, filename)
 			#dest_dir = ur'./testdir'
-			dest_dir = ur'/Users/zhaohuaiyi/Pictures/freshbackmac'
+			dest_dir = '/Users/zhaohuaiyi/Pictures/freshbackmac'
 			#dest_dir = ur'/Users/zhaohuaiyi/Movies/Game-of-thrones'
 			copy(thefile, dest_dir)
 			os.remove(thefile)
